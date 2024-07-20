@@ -1,0 +1,17 @@
+:root {
+    --container-bacground: hsl(0, 0%, 100%);
+    --project-background: hsl(212, 45%, 89%);
+    --sub-text-color: hsl(216, 15%, 48%);
+    --heading-text-color: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
