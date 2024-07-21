@@ -9,8 +9,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 15px;
 }
 
+/* Page Background Color */
+
+body {
+    background-color: var(--project-background);
+}
+
+/* Background Container */
+
+.bodyContainer {
+    background-color: var(--container-bacground);
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
