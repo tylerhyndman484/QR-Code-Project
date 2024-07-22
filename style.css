@@ -22,14 +22,20 @@ body {
 /* Background Container */
 .bodyContainer {
     background-color: var(--container-bacground);
-    min-width: 50%;
-    min-height: 50%;
+    margin: 25%;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    padding-top: 16px;
 }
 
 /* QR Code Image */
 .image {
-
+    width: 100%;
+    border-radius: 20px;
 }
+
 
 /* Subtext styling */
 .subText {
@@ -40,6 +46,7 @@ body {
 .boldText {
     font-weight: 700;
     font-size: 22px;
+    padding-top: 24px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
