@@ -10,20 +10,37 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 15px;
+    font-family: Outfit, sans-serif;
 }
 
 /* Page Background Color */
-
 body {
     background-color: var(--project-background);
+    
 }
 
 /* Background Container */
-
 .bodyContainer {
     background-color: var(--container-bacground);
+    min-width: 50%;
+    min-height: 50%;
 }
 
+/* QR Code Image */
+.image {
+
+}
+
+/* Subtext styling */
+.subText {
+    color: var(--sub-text-color);
+}
+
+/* Boldtext Styling  */
+.boldText {
+    font-weight: 700;
+    font-size: 22px;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
