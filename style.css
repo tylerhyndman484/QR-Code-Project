@@ -44,10 +44,20 @@ body {
     border-radius: 20px;
 }
 
+.textContainer {
+    display: grid;
+    row-gap: 8px;
+}
+
 
 /* Subtext styling */
 .subText {
     color: var(--sub-text-color);
+    text-align: center;
+    line-height: 1.4em;
+    letter-spacing: .0134em;
+    font-weight: 400px;
+
 }
 
 /* Boldtext Styling  */
@@ -55,10 +65,16 @@ body {
     font-weight: 700;
     font-size: 22px;
     padding-top: 24px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+footer {
+    width: 100%;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
     position: absolute;
     bottom: 10px;
 }
