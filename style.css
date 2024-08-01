@@ -75,8 +75,9 @@ footer {
 
 .attribution { 
     font-size: 11px; 
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
 }
 
 .attribution a { 
