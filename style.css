@@ -47,6 +47,7 @@ body {
 .textContainer {
     display: grid;
     row-gap: 8px;
+    padding-inline: 1rem;
 }
 
 
@@ -63,6 +64,7 @@ body {
 /* Boldtext Styling  */
 .boldText {
     font-weight: 700;
+    opacity: .8;
     font-size: 22px;
     padding-top: 24px;
     text-align: center;
